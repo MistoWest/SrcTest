@@ -1,20 +1,25 @@
 {
-  "dependencies": {
-    "@minecraft/server": "^2.0.0-beta.1.21.80-preview.21",
-    "@minecraft/server-gametest": "^1.0.0-beta.1.21.60-preview.24",
-    "@minecraft/server-ui": "^2.0.0-beta.1.21.80-preview.21"
-  },
   "name": "srctest",
   "version": "1.0.0",
-  "main": "scripts/main.js",
-  "devDependencies": {
-    "typescript": "^5.8.2"
-  },
+  "description": "Script Minecraft",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MistoWest/SrcTest.git"
+  },
+  "author": "MistoWest",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/MistoWest/SrcTest/issues"
+  },
+  "homepage": "https://github.com/MistoWest/SrcTest#readme",
+  "dependencies": {
+    "@minecraft/server": "^2.0.0-beta.1.21.80-preview.21",
+    "@minecraft/server-gametest": "^1.0.0-beta.1.21.60-preview.24",
+    "@minecraft/server-ui": "^2.0.0-beta.1.21.80-preview.21",
+    "terser": "^5.39.0"
+  }
 }
